@@ -63,6 +63,14 @@ module.exports = {
         ts: 'never',
       },
     ],
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        types: {
+          object: false,
+        },
+      },
+    ],
   },
   overrides: [
     {
